@@ -1,2 +1,9 @@
+# markdoc support
 .html
 .tmp
+html/
+
+# osx noise
+*.DS_Store
+*.com.apple.timemachine.supported
+profile

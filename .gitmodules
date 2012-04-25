@@ -1,0 +1,3 @@
+[submodule "wired-wiki"]
+	path = wired-wiki
+	url = https://bitbucket.org/nark/wired-wiki.git
