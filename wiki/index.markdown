@@ -32,4 +32,9 @@ Here are listed several guides to help users on very specific topics.
 
 This part of the wiki is dedicated to developers, testers and people who would like to go further with Wired.
 
-* [Developer Wiki](developers.html)
+* [Developer Wiki](developers/index.html)
+* [Contribute to the project](contribute.html)
+
+## Contacts
+
+There are several ways to [contact us](contacts.html).

@@ -18,9 +18,6 @@ This How-To explains how to compile and install a Wired Server on BSD-like Linux
 
 		cd /usr/ports/devel/git && make install clean
 
-* 	Install unzip tool: 
-	
-		cd /usr/ports/archivers/unzip && make install clean
 
 *NOTE: OpenSSL library should be already provided by the operating system.*
 
