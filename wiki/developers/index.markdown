@@ -4,7 +4,13 @@ Welcome the the Wired Developer Wiki. This part of the wiki is dedicated to deve
 
 ### Resources:
 
+<div style='margin:10px;float:right;'><script type="text/javascript" src="http://www.ohloh.net/p/598437/widgets/project_basic_stats.js"></script></div>
+
+Wired is coded using several language, mainly ANSI-C and Objective-C. It is strongly recommended to be confortable with these languages and with UNIX environment.
+
 This [page](resources.html) will give you all link to Wired project repositories and source code documentations. Source code is hosted at [Bitbucket.org](https://bitbucket.org) using [Git](http://git-scm.com) repositories.
+
+We also maintain a [Ohloh](https://www.ohloh.net) page for Wired 2.0. Visit it [here](https://www.ohloh.net/p/wired-2).
 
 ### How-to's:
 

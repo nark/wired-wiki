@@ -2,7 +2,7 @@
 
 ### Keep in touch
 
-If you decide to invest yourself a lot in the Development of Wired, come visit us on the [official server](contacts.html#official) to share your work. It helps to organize all together, to facilitate the centralization of the source code and to distribute the working effort efficiently. 
+If you decide to invest yourself a lot in the development of Wired, come visit us on the [official server](contacts.html#official) to share your work. It helps to organize all together, to facilitate the centralization of the source code and to distribute the working effort efficiently. 
 
 ### Forking Wired repositories
 
@@ -11,7 +11,7 @@ To contribute to the Wired source code, the best way is to fork Wired repositori
 1. Login to [Bitbucket.org](https://bitbucket.org)
 2. Got to one of Wired repositories:[ https://bitbucket.org/nark/wired](https://bitbucket.org/nark/wired)
 3. Click on the "Fork" button in the toolbar and create you own remote clone.
-4. Clone you newly create repository to work locally.
+4. Clone your newly create repository to work locally.
 
 Be aware that Wired repositories massively use Git submodules. I recommend to read the [related page](submodules.html) for a good start.
 
