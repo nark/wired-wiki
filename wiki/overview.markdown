@@ -14,13 +14,17 @@ Wired is built using open standards, and is an open standard itself. The protoco
 
 As the only character set available, Wired uses Unicode for all textual communication. This allows seamless integration of every single existing written language in all of Wired's chat and messages. Now you can finally host that Klingon server you've always wanted. 
 
-**Strong Encryption** 
+**Strong Security** 
 
-Wired uses the TLS protocol for encrypted transport, supporting the use of a wide range of strong encryption ciphers. For example, Wired can use the 256-bit Advanced Encryption Standard (AES) cipher. The server administrator controls what ciphers are available to clients, and can even enable the use of no cipher at all, for those cases where the environment already is secure. 
+Wired uses the TLS protocol for encrypted transport, supporting the use of a wide range of strong encryption ciphers. The Wired protocol itself was also built to reduce security concerns.
+
+**Refined Design**
+
+The Wired software suite for Mac OS X exploits a modern, user friendly and powerfull design. Wells integrated to the system, Wired Client and Wired Sever provide an easy-to-use solution for BBS on Macs.
 
 **Unix Server** 
 
-The Wired server is written as a portable Unix server, so it can run as a background service on Mac OS X, BSD and others. But don't let that intimidate you, the Mac OS X version includes an easy-to-use System Preferences pane. Most of the administration is done via the client anyway.
+The Wired server is written as a portable Unix server, so it can run as a background service on Mac OS X, BSD and others. But don't let that intimidate you, the Mac OS X version includes an easy-to-use app to manage your Wired server. Most of the administration is done via the client anyway.
 
 
 The Wired Software suite is composed of several programs for UNIX and Mac OSX systems.

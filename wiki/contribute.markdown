@@ -33,3 +33,15 @@ It is important for every open-source project to provide a complete and up-to-da
 
 If you are a social person interested in the Wired project, you can give your time on the [official server](contacts.html#official) or the [mailing-list](contacts.html#mailing-list), to share your knowledge with other users of the community.
 
+### Donate
+
+These donations are intended to support and encourage the development of the Wired project in its open-source way. Click on the following button to make a donation:
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick" />
+			<input type="hidden" name="hosted_button_id" value="SWCXYLAUGF9BU" />
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online." />
+
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
