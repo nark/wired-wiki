@@ -107,12 +107,13 @@ Here you can manage shared files that are available to connected and authorized 
 
 Wired Server for Mac OS X supports import and export of the server configuration and database in a single archive file, to facilitate migration process. 
 
-* **Menu > File > Export Settings…** : (TBD)
-* **Menu > File > Import Settings…** : (TBD)
+* **Menu > File > Export Settings** : Choose a location where Wired Server will export all its data in a single `.WiredSettings` file.
+
+* **Menu > File > Import Settings** : Choose a `.WiredSettings` file in order to import all your data. **<span style="color:red;">Caution, data already stored into the database and all server settings will be overwritten during this operation.</span>**
 
 ### Administrate from Wired Client
 
- (TBD)
+Most of the Wired Server administration is available from [Wired Client for Mac OSX](http://wired.read-write.fr/products/wired-client/).
 
 ## [V. Migration](#Migration)
 
@@ -142,7 +143,7 @@ This error message wants to say that your database is corrupted. This can be due
 
 2. In a terminal, backup you corrupted database (we never know…):
 
-		cp ~/Library/Wired/database.sqlite3 ~/Library/Wired/database.sqlite3.old
+		$ cp ~/Library/Wired/database.sqlite3 ~/Library/Wired/database.sqlite3.old
 
 3. Load you database file with sqlite3:
 
