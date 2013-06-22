@@ -120,8 +120,49 @@ If you are currently using an older version of Wired Server and you want to migr
 
 ## [VI. Troubleshootings](#Troubleshootings)
 
-* Two Wired Server instances running on the same port (TBD)
+### CPU overload and you can't connect to the server
 
-* Wired Server run as a ghost (TBD)
+This is probably because you have the old zankasoftware.com LaunchAgent still loaded by launchctl. The easy way to fix this is to remove the following file `~/Library/LaunchAgents/com.zankasoftware.WiredServer.plist` then to restart the system. 
 
-* I can't upload files, post in boards, etc. (TBD)
+If you wont restart you can try to unload the agent in command-line:
+
+	$ launchctl unload ~/Library/LaunchAgents/com.zankasoftware.WiredServer.plist
+	
+	$ rm ~/Library/LaunchAgents/com.zankasoftware.WiredServer.plist
+	
+Kill wired process (`kill -9 <PID>`) then restart it. Should be fine.
+
+### You have the following error: database disk image is malformed
+
+This error message wants to say that your database is corrupted. This can be due to suddent terminasion of the system or other unpredictable behavior. Fortunately, there are many chances you can restore it.
+
+*This exemple is for Mac OS X, but works the same with UNIX-like OS. Just use the right paths.*
+
+1. Stop Wired server.
+
+2. In a terminal, backup you corrupted database (we never know…):
+
+		cp ~/Library/Wired/database.sqlite3 ~/Library/Wired/database.sqlite3.old
+
+3. Load you database file with sqlite3:
+
+		$ sqlite3 ~/Library/Wired/database.sqlite3
+
+4. This will open you the sqlite shell. Now execute the following in order to dump the content of your database:
+
+		sqlite > .mode insert
+		sqlite > .output /tmp/database.sqlite3.dump
+		sqlite > .dump
+		sqlite > .exit
+		
+5. Clear the database file, we will recreate it:
+
+		$ rm ~/Library/Wired/database.sqlite3
+			
+5. Now, restore your database content:
+
+		$ sqlite3 ~/Library/Wired/database.sqlite3
+		sqlite > .read /tmp/database.sqlite3.dump
+		sqlite > .exit
+		
+The error message should be gone. 
