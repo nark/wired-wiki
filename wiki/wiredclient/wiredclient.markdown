@@ -22,7 +22,7 @@ To uninstall Wired Client, delete the file from where you installed it.
 
 #### 2.2. Nightly Builds
 
-In addition to the stable version, Read-Write.fr also distributes nightly builds of Wired Client. These builds, which are stampted as "Debug", provide a log console, are more verbose, and run against a differentiated preferences file (~/Library/Preferences/fr.read-write.WiredClientDebug.plist) to facilitate beta-testing. They also benefit of a dedicated software auto-update feed for your convenience. 
+In addition to the stable version, Read-Write.fr also distributes nightly builds of Wired Client. These builds, which are stampted as "Debug", provide a log console, are more verbose, and run against a differentiated preferences file (`~/Library/Preferences/fr.read-write.WiredClientDebug.plist`) to facilitate beta-testing. They also benefit of a dedicated software auto-update feed for your convenience. 
 
 ### 3. Connect to a Servers
 
@@ -44,9 +44,13 @@ Wired Client uses the Chat Window as the main window. The Chat Window regroups e
 
 #### The Toolbar 
 
-You can found a toolbar at the top of the window that provides many Wired features like Boards, Messages, Files, etc.
+You can found a toolbar at the top of the window that provides many Wired features like *Boards*, *Messages*, *Files*, *Transfers*, *Settings*, etc.
 
-The toolbar has the particularity to host the server banner image. Clicking on the banner show you the server info panel.
+*Messages* and *Boards* toolbar items can show a numeric badge with the number of unread objects. The *Transfers* toolbar item can display the number of unfinished transfers.
+
+The toolbar has the particularity to host the server *Banner* image. Clicking on the banner show you the server info panel.
+
+![Server Info Screenshot](img/server_info.png)
 
 You can customize the toolbar using menu *View > Customize Toolbar…*
 
@@ -54,17 +58,27 @@ You can customize the toolbar using menu *View > Customize Toolbar…*
  
 This window uses a tabbar in order to organize connections to Wired servers. In this document we often will use terms like "selected server" or "current connection" which refer to the server associated with the tab currently selected in the tabbar.
 
-+notifications
+Tabbar items show colored notification bubbles to notify some events:
 
-+numberofunreads
+* Regular chat: user talking in the public chat
+* Other events setup to be posted in the chat *(See Preferences > Events)*
+* Enabled Chat Highlights *(See Preferences > Chat > Highlights)*
+
+*NOTE: The color of the notification bubble matches the color of the colesponding resource setup in you current theme. (See Preferences > Themes)*
+
+Tabbar items also show a numeric badge with unread messages and board posts combined for the current connection.
 
 *NOTE: The tabbar is only visible when you have several servers connected at the same time.*
 
 ####  The Sidebar
 
-* Bonjour Servers
-* Bookmarks
-* Trackers
+The Sidebar on the left provides Wired resources:
+
+* Bonjour Servers : local Wired servers available via Bonjour protocol
+* Bookmark Servers : favorite servers you can save and manage
+* Tracker Servers : trackers register Wired servers you can browse and connect
+
+![Sidebar Screenshot](img/serverlist.png)
 
 #### The User List
 
@@ -72,15 +86,28 @@ This window uses a tabbar in order to organize connections to Wired servers. In 
 
 ### 5. Boards
 
+![Boards Screenshot](img/boards.png)
+
 ### 6. Messages
+
+![Messages Screenshot](img/messages.png)
 
 ### 7. Files
 
+![Files Screenshot](img/files.png)
+
 ### 8. Transfers
+
+![Transfers Screenshot](img/transfers.png)
 
 ### 9. Settings
 
+![Settings Screenshot](img/settings.png)
+
 ### 10. Chat History
+
+![Chat History Screenshot](img/chat_history.png)
 
 ### 11. Preferences
 
+![Preferences Screenshot](img/preferences.png)
