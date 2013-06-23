@@ -26,7 +26,7 @@ In addition to the stable version, Read-Write.fr also distributes nightly builds
 
 ### 3. Connectiong To Servers
 
-When opening, Wired Client shows you the Chat Window. On the left of this window you can see the Sidebar which organizes a set of available resources . 
+When opening, Wired Client shows you the Chat Window. On the left of this window you can see the Sidebar which organizes a set of available resources. 
 
 ![ServerList Screenshot](../img/overview.png)
 
