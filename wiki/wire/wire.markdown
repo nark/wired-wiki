@@ -6,7 +6,7 @@ Wire is a command line client for Wired. It runs on various Unix compatible plat
 
 This installation guide describes how to install Wire in a generic way. You can find specific installation topics for operating systems [here](/howtos/install_howtos.html).
 
-To install Wire, download the latest version from [http://www.read-write.fr/wired?page=1](http://www.read-write.fr/wired?page=1), and unpack the file:
+To install Wire, download the latest version from [http://wired.read-write.fr/products/](http://wired.read-write.fr/products/), and unpack the file:
 
 	$ tar -xzf wire-latest.tar.gz 
 	$ cd wire-X.X/

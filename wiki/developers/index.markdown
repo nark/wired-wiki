@@ -8,7 +8,7 @@ Welcome the the Wired Developer Wiki. This part of the wiki is dedicated to deve
 
 Wired is coded using several language, mainly ANSI-C and Objective-C. It is strongly recommended to be confortable with these languages and with UNIX environment.
 
-This [page](resources.html) will give you all link to Wired project repositories and source code documentations. Source code is hosted at [Bitbucket.org](https://bitbucket.org) using [Git](http://git-scm.com) repositories.
+This [page](resources.html) will give you all link to Wired project repositories and source code documentations. Source code is hosted at [GitHub.com](https://github.com) using [Git](http://git-scm.com) repositories.
 
 We also maintain a [Ohloh](https://www.ohloh.net) page for Wired 2.0. Visit it [here](https://www.ohloh.net/p/wired-2).
 
@@ -16,6 +16,6 @@ We also maintain a [Ohloh](https://www.ohloh.net) page for Wired 2.0. Visit it [
 
 * [How-to contribute to the Wired source code](source_code.html)
 * [Understand git submodules in Wired project](submodules.html)
-* [How-to compile Wired Client from sources](wired_client_compile_from_sources.html)
+* [How-to compile Wired Client from sources](https://github.com/nark/WiredClient)
 * [How-to create a new template for Wired Client](wired_client_template.html)
 * [How-to create a chat command plugin for Wired Client](wired_client_plugin.html)

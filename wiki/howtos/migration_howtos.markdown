@@ -4,6 +4,8 @@ This page provides indications to help users to migrate their current Wired syst
 
 ### How to migrate Wired Client<a id="1"></a>
 
+<span style="color:red;">This migration method is now depreciated. No warranty.</span>
+
 The best way to migrate Wired Client is to export your personnal data from an old version (Zanka 2.0) to re-import them in the new version. You mainly have to export your Bookmarks which can be done using in the Bookmarks panel of the Preferences window. Maybe you also want to export your Tracker Bookmarks, also available in the Preferences window.
 
 About everything else, it is definitely recommended to have a fresh start. Preferences file migration was disabled because it causes too many troubles. Do not try to use an old preferences file (*com.zanka.WiredClientDebugP7.plist*) renamed properly to run with the new version.
@@ -38,6 +40,8 @@ You can run multiple Wired servers on the same host without any problem, regardl
 <pre> ./configure --prefix=/home/wired1 </pre>
 
 Thus, you can install and run many server instances as you like (/home/wired13, /home/wired20a, /home/wired20b, etc.). To change the server port, have a look to "port" field in etc/wired.conf, this to avoid socket conflicts.
+
+See [wiredserver/install_osx](How to install Wired Server -UNIX- on Mac OSX) to get more details on how to compile "wired" on OSX.
 
 If you use a pre-builded version of Wired Server for Mac OS X, and that you don't want to compile any sources, a solution could be to install each Wired Server packages (regardless to the version) on different user accounts. Create several user accounts using System Preferences (wired13, wired20a, etc.) then login to each account to install server package independently, *for the current user only*. 
 

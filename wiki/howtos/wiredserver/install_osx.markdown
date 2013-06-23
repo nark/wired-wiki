@@ -38,7 +38,7 @@ Source: http://mxcl.github.com/homebrew/
 
 1. Download Wired tarball:
 
-		curl -O http://www.read-write.fr/wired/zip/wired.tar.gz
+		curl -O http://switch.dl.sourceforge.net/project/wired2/wired/wired.tar.gz
 
 2. Deflate the archive:
 

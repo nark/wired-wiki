@@ -12,7 +12,7 @@ Wired Client is a native Mac OS X client, designed using Cocoa. It features full
 
 ### 2. Installation
 
-To install Wired Client, download the latest version from [http://www.read-write.fr/wired?page=1](http://www.read-write.fr/wired?page=1). Unpack the archive, and drag the resulting file to any directory on the hard drive, for example, the Applications folder. 
+To install Wired Client, download the latest version from [http://wired.read-write.fr/products/](http://wired.read-write.fr/products/). Unpack the archive, and drag the resulting file to any directory on the hard drive, for example, the Applications folder. 
 
 ![Client App Icon](img/client-app.jpg)
 

@@ -29,7 +29,7 @@ This How-To explains how to compile and install a Wired Server on BSD-like Linux
 
 * 	Download archive: 
 	
-		wget http://www.read-write.fr/wired/zip/wired.tar.gz
+		wget http://switch.dl.sourceforge.net/project/wired2/wired/wired.tar.gz
 
 * 	Untar binary: 
 		

@@ -20,7 +20,7 @@ It is important to know that Wired Server for Mac OS X runs several processes on
 
 It is strongly recommanded to install Wired Server on a clean operating system, especially cleared of old versions of Wired Server.
 
-1. Download latest Wired Server for Mac OS X [here](http://www.read-write.fr/wired/zip/WiredServer.zip).
+1. Download latest Wired Server for Mac OS X [here](http://wired.read-write.fr/products/wired-server).
 2. Unarchive the package and drop `Wired Server.app` into your `/Applications` directory.
 3. Open `Wired Server.app` and click the *Install* button of the *General* panel.
 4. When finished, click on the *Start* button to launch your new Wired Server 2.0.

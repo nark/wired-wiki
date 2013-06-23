@@ -45,8 +45,23 @@ Here I take the example of a "Basic" template. Assume that **every of these file
 							en.lproj/
 								InfoPlist.strings
 							htdocs/
-								BoardPost.html								BoardReply.html								Boards.html								Chat.html								ChatEvent.html								ChatMessage.html								css/
-									boards.css									chat.css									default_boards.css									default_chat.css									default_messages.css									messages.css								img/								Message.html								Messages.html								MessageStatus.html
+								BoardPost.html
+								BoardReply.html
+								Boards.html
+								Chat.html
+								ChatEvent.html
+								ChatMessage.html
+								css/
+									boards.css
+									chat.css
+									default_boards.css
+									default_chat.css
+									default_messages.css
+									messages.css
+								img/
+								Message.html
+								Messages.html
+								MessageStatus.html
 							
 - **Info.plist:** This file contains required information to power the bundle. When you duplicate a bundle **you must modify the CFBundleIdentifier**, and it is the only field you usually have to modify in this file.
 	 
