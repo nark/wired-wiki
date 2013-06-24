@@ -118,6 +118,8 @@ I still need to make some test with ibtool, Git and branches to see if we could 
 
 In the meantime, contact us on the [official server](contacts.html#official) in order to share your work and to see it integrated to the next release.
 
+Of course, you will be openly credited for your work in applications Abouts window.
+
 ## Requested languages
 
 Every languages are welcome but some are primarily missing:
