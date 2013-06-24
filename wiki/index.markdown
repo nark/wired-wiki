@@ -40,7 +40,7 @@ This part of the wiki is dedicated to developers, testers and people who would l
 * [Developer Wiki](developers/index.html)
 * [Contribute to the project](contribute.html)
 * [Translate Wired](translate.html)
-* 
+
 ## Contacts
 
 There are several ways to [contact us](contacts.html).
