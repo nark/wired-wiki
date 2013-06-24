@@ -23,7 +23,7 @@ Visit the [Developer Wiki](developers/index.html) page to find resources you nee
 
 ### Contribute as a translator
 
-The Wired project needs a translation support, especially regarding the Mac OS X software suite. Let us know if you are familiar with Mac software translation on the [official server](contacts.html#official) or [GitHub.com](https://github.com/nark).
+The Wired project needs a translation support, especially regarding the Mac OS X software suite. Let us know if you are familiar with Mac software translation on the [official server](contacts.html#official) or [GitHub.com](https://github.com/nark) and visit the [tanslate page](translate.html) to learn more about translation of Wired software.
 
 ### Write and correct documentations
 
