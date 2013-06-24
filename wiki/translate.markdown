@@ -2,7 +2,7 @@
 
 Like every well-designed Cocoa applications, Wired software for Mac can be localized in multiple languages. Historically, Wired was distributed in english (main language), french, german, italian and japanese by Zanka Software.
 
-This document explains how to getting started with translation of Wired software. It takes Wired Client as a base example, however these instructions are also work with other Cocoa software of the suite like Wired Serve and Wire Bot.
+This document explains how to getting started with translation of Wired software. It takes Wired Client as a base example, however these instructions are also working with other Cocoa software of the suite like Wired Server and Wire Bot.
 
 ## Requirements
 
