@@ -37,6 +37,12 @@ body.listing table#pages td.name a, body.listing table#subdirs td.name a, body.l
     padding: 0;
     width: 650px; 
 }
+
+@media all and (max-width: 960px) {
+	#breadcrumbs {
+		margin: 0;
+	}
+}
     
 #breadcrumbs li {
 	float: left;
