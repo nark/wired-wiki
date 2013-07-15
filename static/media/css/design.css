@@ -66,21 +66,21 @@ body.listing table#pages td.name a, body.listing table#subdirs td.name a, body.l
 	float: right; 
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 21px; }
-
 h1 {
-  font-size: 21px; }
+	line-height: 51px; 
+}
 
 h2 {
-  font-size: 18px; }
+	margin-top: 20px;
+}
 
-h3 {
-  font-size: 15px; }
+h2, h3 {
+	line-height: 41px; 
+}
 
 h4, h5, h6 {
-  font-size: 13px; }
+  line-height: 31px; 
+}
 
 
 blockquote {
