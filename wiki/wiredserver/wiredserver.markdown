@@ -105,6 +105,10 @@ The config file is in a "value = key" format, one setting per line. Paths that d
 *	**group :**	Name or id of the group that the server should operate as.
 
 	*Example: group = daemon*
+	
+*	**force encryption :**	Ask the server to accept or not incoming connections that do not use an SSL 	encryption cipher.
+
+	*Example: force encryption = true*
 
 ### Database Settings
 
