@@ -4,11 +4,13 @@ Welcome to the Wired Wiki. This place is dedicated to provide documentation for 
 
 This wiki is designed to be the primary documentation reference for users, administrators and developers. This knowledge base is updated as regularly as possible with latest information.
 
-## Official Website
+## Download binaries
 
-The offcial website of the Wired project:
+Wired binaries are hosted and available for download at [SourceForge.net](http://sourceforge.net/projects/wired2/files/?source=navbar).
 
-* [wired.read-write.fr](http://wired.read-write.fr)
+## Download sources
+
+Wired source code is available on [GitHub.com](https://github.com/nark)
 
 ## User Manuals
 
